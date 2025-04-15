@@ -1,0 +1,19 @@
+[project]
+title = "AI Job Market Explorer"
+version = "0.1.0"
+port = 8501
+slug = "ai-job-market-explorer"
+entrypoint = "app.py"
+
+[branding]
+name = "AI Job Market Explorer"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.ai_job_market_insights]
+type = "csv"
+path = "data/ai_job_market_insights.csv"
+
+[logging]
+level = "INFO"
